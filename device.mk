@@ -127,7 +127,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Vendor security patch level (vendor blobs from A310FXXU4CSB2)
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2019-02-01
+    ro.mk.build.vendor_security_patch=2019-02-01
 
 # Wi-fi
 PRODUCT_COPY_FILES += \
